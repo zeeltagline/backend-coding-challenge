@@ -1,4 +1,4 @@
-# React Coding Challenge
+# Backend Coding Challenge
 
 At aspaara a squad of superheroes work on giving superpowers to planning teams.
 Through our product dashboard we give insights into data – a true super-vision
@@ -8,25 +8,23 @@ superpower. Join forces with us and build a dashboard of the future!
 
 ## Goal
 
-Create a simple single-page application that allows a planner to get insights
+Create a simple backend application that provide API that allows a planner to get insights
 into client and planning information.
 
-You will find the corresponding data to display in `planning.json`, which
+You will find the corresponding data(Fixture) that need to be imported into database from  `planning.json`, which
 contains around 10k records.
 
 ## Requirements
 
-Within the application, it should be possible to
+Create proper database models that can fit to the schema
 
-* browse all the data that is provided in `planning.json` in a detailed view
-  (for example table view)
-* get an overview of the data with some statistics, for at least on of the
-  following attributes:
-  * booking grade
-  * office city
-  * skills
-  * industry
-* drill down into subsets by means of filtering and/or sorting
+Within the application, it should be possible to
+* provide api(s) to get the planning data
+* api must be paginated
+* api must provide provision to filter for as many columns as possible
+* api must have search functionality to search for records
+* api should provide sorting of data 
+
 
 ## Data Model
 
@@ -53,9 +51,10 @@ Within the application, it should be possible to
 
 ## Tech Stack
 
-* JavaScript or TypeScript
-* React
-* Node (if required)
+* Python 3.8+
+* FastAPI
+* SQLAlchemy
+
 
 ## Submission
 
