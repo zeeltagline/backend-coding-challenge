@@ -1,29 +1,29 @@
 # Backend Coding Challenge
 
-At aspaara a squad of superheroes work on giving superpowers to planning teams.
-Through our product dashboard we give insights into data – a true super-vision
+At aspaara a squad of superheroes works on giving superpowers to planning teams.
+Through our product dashboard, we give insights into data – a true super-vision
 superpower. Join forces with us and build a dashboard of the future!
 
 ![aspaara superhero](aspaara_superhero.png)
 
 ## Goal
 
-Create a simple backend application that provide API that allows a planner to get insights
+Create a simple backend application that provides API which allows a planner to get insights
 into client and planning information.
 
-You will find the corresponding data(Fixture) that need to be imported into database from  `planning.json`, which
+You will find the corresponding data(Fixture) that needs to be imported into the database from  `planning.json`, which
 contains around 10k records.
 
 ## Requirements
 
-Create proper database models that can fit to the schema
-
-Within the application, it should be possible to
-* provide api(s) to get the planning data
-* api must be paginated
-* api must provide provision to filter for as many columns as possible
-* api must have search functionality to search for records
-* api should provide sorting of data 
+1. Create proper database tables that can fit the data model
+2. Create a sript that imports the data into the database(sqlite)
+3. Within the application, it should be possible to
+    * provide API(s) to get the planning data
+    * API should be paginated
+    * API should provide provision to filters for as many columns as possible
+    * API should provide provision for search for records on as many columns as posible
+    * API should provide provision to sort of data 
 
 
 ## Data Model
@@ -61,7 +61,7 @@ Within the application, it should be possible to
 * Please fork the project, commit and push your implementation and add
   `sundara.amancharla@aspaara.com` as a contributor.
 * Please update the README with any additional details or steps that are
-  requried to run your implementation.
+  required to run your implementation.
 * We understand that there is a limited amount of time, so it does not have to
   be perfect or 100% finished. Plan to spend no more than 2-3 hours on it.
 
