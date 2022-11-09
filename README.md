@@ -49,7 +49,7 @@ contains around 10k records.
 * Optional Skills: array of key-value pair (optional)
 * Is Unassigned: boolean
 
-## Tech Stack
+## Preferred Tech Stack
 
 * Python 3.8+
 * FastAPI
